@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title> Wren Library Management System </title>
+    
+        
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--slider-->
+<link href="css/slider.css" rel="stylesheet" type="text/css" media="all"/>
+
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+    </script>
+<script type="text/javascript">
+   
+    </script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+       
+            </div>
+            <div class="btm_border">
+<div class="h_bg">
+<div class="wrap">
+	
+	<div class="header">
+		<div class="logo">
+			<font size="48" color="#ff0d50" face="Maiandra GD" style="bold">Wren Library Management System</font>
+		</div>
+		
+		<div class="clear"></div>
+	</div>
+
+	
+	<div class='h_btm'>
+		<div class='cssmenu'>
+			<ul>
+			    <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server">  
+
+
+        </asp:ContentPlaceHolder>
+			 </ul>
+	</div>
+	 
+	<div class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<!------ Slider_bg ------------>
+<div class="slider_bg">
+<div class="wrap">
+	<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">  
+
+
+        </asp:ContentPlaceHolder>
+		<div class="grids_1_of_3">
+				<div class="grid_1_of_3 images_1_of_3">
+					  <img src="images/icon1.jpg">
+					  
+					  <p>“I don't believe in colleges and universities. I believe in libraries because most students don't have any money. When I graduated from high school, it was during the Depression and we had no money. I couldn't go to college, so I went to the library three days a week for 10 years.” 
+     
+                                  <br /><br />  ― Ray Bradbury  </p>
+				</div>
+				<div class="grid_1_of_3 images_1_of_3">
+					  <img src="images/icon2.jpg">
+					 
+					  <p>The library card is a passport to wonders and miracles, glimpses into other lives, religions, experiences, the hopes and dreams and strivings of ALL human beings, and it is this passport that opens our eyes and hearts to the world beyond our front doors, that is one of our best hopes against tyranny, xenophobia, hopelessness, despair, anarchy, and ignorance.
+
+                                 <br /><br />    –Libba Bray</p>
+				</div>
+				<div class="grid_1_of_3 images_1_of_3">
+					  <img src="images/icon3.jpg">
+					  
+					  <p>Librarians are almost always very helpful and often almost absurdly knowledgeable. Their skills are probably very underestimated and largely underemployed.
+
+                                <br /><br />     –Charles Medawar</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+</div>
+</div>
+
+
+
+<!--footer1-->
+<div class="ftr-bg">
+	<div class="wrap">
+		<div class="footer">
+		<div class="copy">
+			<p class="w3-link">© All Rights Reserved | Design by&nbsp; Tithi Patel , Kalpit Shah</p>
+		</div>
+		<div class="clear"></div>	
+	</div>
+	</div>
+</div>
+      
+    </div>
+    </form>
+</body>
+</html>
